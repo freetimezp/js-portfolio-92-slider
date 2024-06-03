@@ -73,6 +73,11 @@ img {
     transform: translateY(-50%);
     width: 300px;
     height: 600px;
+    opacity: 0.95;
+}
+
+.slide.exiting .slide-img img {
+    transform: translateY(-80%);
 }
 
 .slide-img-1 {
